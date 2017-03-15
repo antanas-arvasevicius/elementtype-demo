@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "target": "es5",
+    "sourceMap": true,
+    "outFile": "web/js/application.js",
+    "allowUnreachableCode": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "jsx": "react",
+    "reactNamespace": "SmartClientJSX"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
